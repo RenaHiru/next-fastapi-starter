@@ -39,3 +39,17 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Python venv
+backend/.venv/
+__pycache__/
+*.pyc
+
+# SQLite DB file
+backend/app.db
+
+# VSCode
+.vscode/
+
+# Windows
+Thumbs.db
