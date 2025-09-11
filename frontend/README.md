@@ -37,7 +37,7 @@ FastAPI プロジェクトを backend に作成し、GET /hello を返すAPIを�
 ```bash
 cd backend
 python -m venv .venv
-.\.venv\Scripts\activate
+.venv\Scripts\activate
 pip install fastapi uvicorn[standard]
 ```
 main.py 作成・起動
@@ -104,6 +104,4 @@ export default async function HelloPage() {
 
 ### 今後の予定
 
-Day4: 簡単な CRUD 機能を追加し、フロントとバックの連携を確認
-
-
+Day4: 簡単な CRUD 機能を追加し、フロントとバックの連携を確認★
